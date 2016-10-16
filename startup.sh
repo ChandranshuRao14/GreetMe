@@ -1,4 +1,4 @@
-≈çy#!/bin/bash
+#!/bin/bash
 
 batteryLevel=`pmset -g batt | grep "%" | awk '{print $2}' | tr -d ';'`
 
